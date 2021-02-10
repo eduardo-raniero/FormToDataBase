@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <title>Registration Section</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="the-box">
+    <div id="the-box-two">
+      <form action="register.php" method="POST" class="needs-validation" novalidate>
+  
+        <div id="rgt-limitation">
+          <h1 id="rgt-header" class="h3 mb-3 font-weight-normal">Faça seu Cadastro</h1>
+        </div>
+        
+        <div class="form-group-container">
+          <label for="inputName" class="sr-only">Nome Completo</label>
+          <input name="name" type="text" id="inputName" class="form-control" placeholder="Nome" required="" autofocus="">
+        </div>
+        
+        <div class="form-group-container">
+          <label for="inputEmail" class="sr-only">E-mail</label>
+          <input name="email" type="email" id="inputEmail" class="form-control" placeholder="E-mail" required="" autofocus="">
+        </div>
+
+       <div class="form-group-container">
+        <label for="inputPassword" class="sr-only">Senha</label>
+        <input name="password" type="password" id="inputPassword" class="form-control" placeholder="Senha" required="">
+       </div>
+        
+
+        <label for="inputTel" class="sr-only">Telefone</label>
+        <input name="phone" type="tel" id="inputTel" class="form-control" placeholder="Telefone" required>
+        
+        <button id="the-btn" type="submit">Cadastrar Usuário</button>
+      </form>
+    </div>
+
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="validation.js"></script>
+
+</body>
+</html>

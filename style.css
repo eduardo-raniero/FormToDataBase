@@ -1,0 +1,46 @@
+body{
+    font-family: Roboto !important;
+    background-color: #f2f2f2;
+}
+
+::selection{
+    background-color: #015866;
+    color: white;
+}
+
+input{
+    padding: 0.6rem !important;
+}
+
+input:focus{
+    background-color: #ccf4ef2a !important;
+}
+
+#the-box-two{
+    width: 25rem !important;
+    margin: 0 auto;
+    padding-top: 8rem;
+}
+
+input{
+    margin-bottom: 0.8rem;
+}
+
+#the-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #00363E;
+    padding: 0.7rem;
+    border-radius: 0.15rem;
+    color: white;
+    font-weight: 500;
+    transition: 0.2s;
+    margin-top: 1rem;
+}
+
+#the-btn:hover{
+    background-color: #015866;
+    margin-top: 0.8rem;
+    box-shadow: 0px 8px 10px #0159662d;
+}
